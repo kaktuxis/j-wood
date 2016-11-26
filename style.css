@@ -15,19 +15,21 @@ body {
 	background-position: 0 0;
 	background-repeat: no-repeat;	
 }
-.nav__home {
+.nav {
 	text-align: center;
-	border-bottom: 1px #ffffff solid;
 	height: 100px;
 }
-.nav__item {
+.nav__home {
+	border-bottom: 1px #ffffff solid;
+}
+.nav_item {
 	display: inline-block;
 	padding: 40px 20px;
 	font-family: nexa-light;
 	font-size: 24px;
-	color: #f1f1f1;
 	text-decoration: none;
 	text-transform: uppercase;
+	color: #f1f1f1;
 }
 .logo__img {
 	background-image: url("images/Logo.png");
@@ -68,4 +70,49 @@ body {
 	height: 32px;
 	display: block;
 	margin: 25px auto 0;
+}
+.nav__about{
+	border-bottom: 1px #bebebe solid;
+}
+.nav_item__color {
+	color: #bebebe;
+}
+.foto_about {
+	width: 771px;
+	height: 700px;
+	margin: 75px 50px 0 165px;
+	display: inline-block;
+}
+.text-block-about{
+	display:inline-block;
+	vertical-align: top;
+}
+.block_title {
+	font-size: 60px;
+	text-transform: uppercase;
+	font-family: nexa-light;
+}
+.block_title__about {
+	color: #202020;
+	display: inline-block;
+	margin: 162px 0 87px 0;
+}
+.text-block-about__paragraph {
+	margin: 0 0 40px 0;
+	font-size: 24px;
+	font-family: opensans-light;
+	color: #202020;
+	width: 670px;
+}
+.text-block-about__autograph {
+	font-size: 36px;
+	font-family: felt-tip-woman;
+	color: #202020;
+	margin-top: 100px;
+	display: block;
+}
+.croll_next_block__about {
+	color: #bebebe;
+	text-decoration: none;
+	margin: 80px 0 0 0;
 }
