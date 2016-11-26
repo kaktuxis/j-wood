@@ -1,0 +1,71 @@
+@font-face {font-family: nexa-bold; src: url(font/Nexa-Bold.otf);}
+@font-face {font-family: nexa-light; src: url(font/Nexa-Light.otf);}
+@font-face {font-family: felt-tip-woman; src: url(font/Felt-Tip-Woman.ttf);}
+@font-face {font-family: opensans-light; src: url(font/OpenSans-Light.ttf);}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+.block {
+	margin: 0 auto;
+	height: 1080px;
+}
+.block__home {
+	background-image: url("images/interface/background-home.png");
+	background-position: 0 0;
+	background-repeat: no-repeat;	
+}
+.nav__home {
+	text-align: center;
+	border-bottom: 1px #ffffff solid;
+	height: 100px;
+}
+.nav__item {
+	display: inline-block;
+	padding: 40px 20px;
+	font-family: nexa-light;
+	font-size: 24px;
+	color: #f1f1f1;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.logo__img {
+	background-image: url("images/Logo.png");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	height: 474px;
+	width: 474px;
+	display: block;
+	margin: 148px auto 0;
+}
+.title_home {
+	font-size: 60px;
+	color: #f1f1f1;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 47px 0 0 0;
+}
+.title_home__bold {
+	font-family: nexa-bold;
+}
+.title_home__light {
+	font-family: nexa-light;
+}
+.scroll_next_block {
+	margin: 112px 0 0 0;
+	display: block;
+	text-align: center;
+	font-family: nexa-bold;
+	font-size: 18px;
+	color: #f1f1f1;
+	text-transform: uppercase;
+}
+.scroll_next_block__icon{
+	background-image: url("images/interface/Double Arrow.png");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	width: 32px;
+	height: 32px;
+	display: block;
+	margin: 25px auto 0;
+}
