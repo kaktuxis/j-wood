@@ -8,7 +8,6 @@ body {
 }
 .block {
 	margin: 0 auto;
-	height: 1080px;
 }
 .block__home {
 	background-image: url("images/interface/background-home.png");
@@ -19,16 +18,21 @@ body {
 	text-align: center;
 	height: 100px;
 }
-.nav__home {
-	border-bottom: 1px #ffffff solid;
-}
-.nav_item {
+.nav a{
 	display: inline-block;
-	padding: 40px 20px;
-	font-family: nexa-light;
+	margin: 36px 23px;
 	font-size: 24px;
 	text-decoration: none;
 	text-transform: uppercase;
+	font-family: nexa-light;
+}
+a {
+	text-decoration: none;
+}
+.nav__home {
+	border-bottom: 1px #ffffff solid;
+}
+.nav__home a {
 	color: #f1f1f1;
 }
 .logo__img {
@@ -45,22 +49,25 @@ body {
 	color: #f1f1f1;
 	text-align: center;
 	text-transform: uppercase;
-	margin: 47px 0 0 0;
+	margin: 43px 0 0 0;
+	letter-spacing: 2px;
 }
 .title_home__bold {
 	font-family: nexa-bold;
 }
 .title_home__light {
 	font-family: nexa-light;
+	font-weight: 100;
 }
 .scroll_next_block {
-	margin: 112px 0 0 0;
+	margin: 114px 0 0 0;
 	display: block;
 	text-align: center;
 	font-family: nexa-bold;
 	font-size: 18px;
 	color: #f1f1f1;
 	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 .scroll_next_block__icon{
 	background-image: url("images/interface/Double Arrow.png");
@@ -69,18 +76,21 @@ body {
 	width: 32px;
 	height: 32px;
 	display: block;
-	margin: 25px auto 0;
+	margin: 19px auto 50px;
+}
+.block__about {
+	background-image: #ffffff;
 }
 .nav__about{
 	border-bottom: 1px #bebebe solid;
 }
-.nav_item__color {
+.nav__about a {
 	color: #bebebe;
 }
 .foto_about {
 	width: 771px;
 	height: 700px;
-	margin: 75px 50px 0 165px;
+	margin: 75px 47px 0 155px;
 	display: inline-block;
 }
 .text-block-about{
@@ -91,28 +101,133 @@ body {
 	font-size: 60px;
 	text-transform: uppercase;
 	font-family: nexa-light;
+	letter-spacing: 6px;
+	font-weight: 500;
 }
 .block_title__about {
 	color: #202020;
 	display: inline-block;
-	margin: 162px 0 87px 0;
+	margin: 155px 0 47px 0;
 }
 .text-block-about__paragraph {
-	margin: 0 0 40px 0;
+	margin: 0 0 24px 0;
 	font-size: 24px;
 	font-family: opensans-light;
 	color: #202020;
 	width: 670px;
+	word-spacing: 3px;
+	line-height: 50px;
 }
 .text-block-about__autograph {
 	font-size: 36px;
 	font-family: felt-tip-woman;
 	color: #202020;
-	margin-top: 100px;
+	margin-top: 53px;
 	display: block;
 }
 .croll_next_block__about {
 	color: #bebebe;
 	text-decoration: none;
-	margin: 80px 0 0 0;
+	margin: 76px 0 0 0;
+}
+.block__portfolio {
+	background-image: url("images/interface/background-portfolio.png");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+.nav__portfolio {
+	border: 1px #f1f1f1 solid;
+}
+.nav__portfolio a{
+	color: #f1f1f1;
+}
+.block_title__portfolio{
+	color: #f1f1f1;
+	text-align: center;
+	margin: 76px 0;
+}
+.portfolio {
+	margin: 0 auto;
+	text-align: center;
+}
+.portfolio__img{
+	display: inline-block;
+	margin: 0 50px 50px 0;
+}
+.croll_next_block__porfolio {
+	margin: 18px 0 0 0;
+}
+.block__contact {
+	text-align: center;
+	padding-bottom: 195px
+}
+.nav__contact a {
+	color: #f1f1f1;
+}
+.nav__contact {
+	padding: 6px 0;
+	margin-bottom: 188px;
+}
+.block-contact__text {
+	font-size: 30px;
+	font-family: nexa-bold;
+	color: #202020;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 0 0 21px 0;
+}
+.block_contact__data {
+	display: block;
+	text-align: center;
+	font-size: 60px;
+	color: #202020;
+	font-family: nexa-light;
+	font-weight: 100;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	margin: 0 0 43px 0;
+}
+.block_contact__data__tel {
+	font-size: 48px;
+	padding-top: 7px;
+	letter-spacing: 5px;
+	margin-bottom: 51px;
+}
+.block_contact__soclink {
+	display: inline-block;
+	width: 57px;
+	height:57px;
+	margin: 8px 10px;
+}
+.facebook {
+	background-image: url("images/interface/facebook.png");
+	background-position: 0 0;
+	background-repeat:no-repeat;
+}
+.twitter {
+	background-image: url("images/interface/twitter.png");
+	background-position: 0 0;
+	background-repeat:no-repeat;
+}
+.instagram {
+	background-image: url("images/interface/instagram.png");
+	background-position: 0 0;
+	background-repeat:no-repeat;
+}
+.footer {
+	border-top: 1px #bebebe solid;
+	text-transform: uppercase;
+}
+.footer__text {
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: nexa-light;
+	font-weight: 100;
+	text-align:center;
+	margin: 0 auto;
+	display: block;
+	padding: 39px 0;
+	
 }
