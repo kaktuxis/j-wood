@@ -32,6 +32,8 @@ a {
 }
 .nav__home {
 	border-bottom: 1px #ffffff solid;
+	width: 90%;
+	margin: 0 auto;
 }
 .nav__home a {
 	color: #f1f1f1;
@@ -80,10 +82,12 @@ a {
 	margin: 19px auto 50px;
 }
 .block__about {
-	background-image: #ffffff;
+	background-color: #ffffff;
 }
 .nav__about{
 	border-bottom: 1px #bebebe solid;
+	width: 90%;
+	margin: 0 auto;
 }
 .nav__about a {
 	color: #bebebe;
@@ -137,7 +141,9 @@ a {
 	background-repeat: no-repeat;
 }
 .nav__portfolio {
-	border: 1px #f1f1f1 solid;
+	border-bottom: 1px #f1f1f1 solid;
+	width: 90%;
+	margin: 0 auto;
 }
 .nav__portfolio a{
 	color: #f1f1f1;
