@@ -8,6 +8,7 @@ body {
 }
 .block {
 	margin: 0 auto;
+	padding-bottom: 1px;
 }
 .block__home {
 	background-image: url("images/interface/background-home.png");
